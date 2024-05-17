@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    background: black;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.divisoria-superior{
+    font-size: 2rem;
+    background-color: teal;
+}
+.divisoria-inferior {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+#titulo {
+    color: white;
+    transition: color 0.3s;
+}
+
+#texto {
+    color: gray;
+    transition: color 0.3s;
+}
